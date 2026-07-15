@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ember No. 18 | Fire-Led Dining</title>
+    <meta name="description" content="Ember No. 18 is a premium restaurant website with reservations, deposits, private dining and direct ordering." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="restaurant">
+    <div class="site-shell">
+      <nav class="nav">
+        <a class="brand" href="../index.html"><span class="brand-mark"></span> Ember No. 18</a>
+        <div class="nav-links">
+          <a href="#menu">Menu</a>
+          <a href="#reserve">Reserve</a>
+          <a href="#private">Private dining</a>
+          <a href="#order">Collect</a>
+        </div>
+        <a class="nav-cta" href="#reserve">Reserve</a>
+      </nav>
+
+      <section class="hero">
+        <img src="../../assets/portfolio-images/restaurant/restaurant-asset-01.png" alt="Ember No. 18 dining room" />
+        <div class="hero-inner reveal">
+          <span class="eyebrow">Open-fire dining, Umhlanga</span>
+          <h1>Smoke, salt, citrus, and a table worth arriving for.</h1>
+          <p class="hero-copy">A moody coastal dining room built around fire-led plates, late reservations, private rooms, and collection orders that skip the delivery-app tax.</p>
+          <div class="hero-actions"><a class="btn" href="#reserve">Reserve tonight</a><a class="btn secondary" href="#menu">See the current menu</a></div>
+        </div>
+      </section>
+
+      <div class="metrics-strip reveal">
+        <div class="metric"><strong>18:00</strong><span>First dinner seating, Tuesday to Sunday.</span></div>
+        <div class="metric"><strong>R250</strong><span>Large-party deposit credited to the final bill.</span></div>
+        <div class="metric"><strong>42</strong><span>Seats in the main room, plus a private table for twelve.</span></div>
+        <div class="metric"><strong>20 min</strong><span>Collection window for direct orders from the kitchen pass.</span></div>
+      </div>
+
+      <main>
+        <section class="section" id="menu">
+          <div class="section-head reveal">
+            <h2>Tonight moves with the coals.</h2>
+            <p>Restaurant sites convert when the food, room, reservation path and trust cues are immediate. The menu is edited, not endless.</p>
+          </div>
+          <div class="grid three">
+            <div class="image-card card reveal"><img src="../../assets/portfolio-images/restaurant/restaurant-asset-03.png" alt="Chef plating" /><span class="image-label">Fire-roasted line fish</span></div>
+            <div class="image-card card reveal"><img src="../../assets/portfolio-images/restaurant/restaurant-asset-07.png" alt="Signature dish" /><span class="image-label">Coal-seared ribeye</span></div>
+            <div class="card pad reveal"><h3>Current plates</h3><ul class="feature-list"><li>Charred prawns, lime leaf butter.</li><li>Smoked aubergine, sesame, herbs.</li><li>Ribeye, bone marrow jus, bitter leaves.</li><li>Burnt Basque cheesecake, citrus salt.</li></ul></div>
+          </div>
+        </section>
+
+        <section class="section" id="reserve">
+          <div class="grid two">
+            <div class="reveal">
+              <span class="eyebrow">Reservations</span>
+              <h2>Hold the table with intent.</h2>
+              <p class="muted">Groups of six or more secure the table with a deposit. The experience feels premium to the guest and protects the room from empty covers.</p>
+              <div class="image-card card"><img src="../../assets/portfolio-images/restaurant/restaurant-asset-04.png" alt="Reserved restaurant table" /><span class="image-label">Table held for dinner</span></div>
+            </div>
+            <form class="card pad booking-card reveal" data-calculator="restaurant" data-booking-form>
+              <h3>Reserve a table</h3>
+              <div class="form-grid">
+                <div class="field"><label>Guests</label><input name="guests" type="number" min="2" value="6" /></div>
+                <div class="field"><label>Deposit</label><select name="deposit"><option value="0">No deposit under 6</option><option value="250" selected>R250 group deposit</option><option value="650">R650 tasting menu</option></select></div>
+                <div class="field"><label>Date</label><input type="date" /></div>
+                <div class="field"><label>Time</label><input type="time" /></div>
+                <div class="field full"><label>Occasion</label><textarea placeholder="Anniversary, client dinner, celebration..."></textarea></div>
+              </div>
+              <div class="quote-result" data-result><strong>R0</strong><span></span></div>
+              <button class="btn" type="submit">Hold table</button>
+              <p class="quote-result reveal"><span data-booking-status>Choose a slot and Ember will confirm the table.</span></p>
+            </form>
+          </div>
+        </section>
+
+        <section class="section tight" id="private">
+          <div class="grid two">
+            <div class="image-card card reveal"><img src="../../assets/portfolio-images/restaurant/restaurant-asset-06.png" alt="Outdoor terrace at sunset" /><span class="image-label">Terrace table</span></div>
+            <div class="panel reveal">
+              <h3>Private dining</h3>
+              <p>One long table, twelve seats, dedicated server, fire-led sharing menu and optional wine pairing.</p>
+              <div class="floating-dashboard">
+                <div class="dash-row"><span>Private room minimum</span><strong>R9,500</strong></div>
+                <div class="dash-row"><span>Menus sent within</span><strong>2h</strong></div>
+                <div class="dash-row"><span>Deposit to secure</span><strong>30%</strong></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section tight" id="order">
+          <div class="section-head reveal">
+            <h2>Collect from the pass.</h2>
+            <p>Direct collection keeps margin in the restaurant and gives regulars a polished alternative to delivery apps.</p>
+          </div>
+          <div class="grid three">
+            <div class="image-card card reveal"><img src="../../assets/portfolio-images/restaurant/restaurant-asset-05.png" alt="Collection order handed over" /><span class="image-label">Direct collection</span></div>
+            <div class="image-card card reveal"><img src="../../assets/portfolio-images/restaurant/restaurant-asset-09.png" alt="Takeaway order preparation" /><span class="image-label">Kitchen packed</span></div>
+            <div class="image-card card reveal"><img src="../../assets/portfolio-images/restaurant/restaurant-asset-10.png" alt="Dining atmosphere" /><span class="image-label">Stay for the room</span></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer"><div class="footer-inner"><h2>Ember No. 18 makes reservations feel like part of the experience.</h2><a class="btn" href="#reserve">Reserve tonight</a></div></footer>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>
