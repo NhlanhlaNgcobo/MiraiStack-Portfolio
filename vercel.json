@@ -4,27 +4,27 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/portfolio-sites/index.html"
+      "destination": "/portfolio-sites/index"
     },
     {
       "source": "/kanso-house",
-      "destination": "/portfolio-sites/sites/furniture.html"
+      "destination": "/portfolio-sites/sites/furniture"
     },
     {
       "source": "/boltworks",
-      "destination": "/portfolio-sites/sites/trades.html"
+      "destination": "/portfolio-sites/sites/trades"
     },
     {
       "source": "/ember-no-18",
-      "destination": "/portfolio-sites/sites/restaurant.html"
+      "destination": "/portfolio-sites/sites/restaurant"
     },
     {
       "source": "/luma-atelier",
-      "destination": "/portfolio-sites/sites/wellness.html"
+      "destination": "/portfolio-sites/sites/wellness"
     },
     {
       "source": "/nightswitch",
-      "destination": "/portfolio-sites/sites/lead-recovery.html"
+      "destination": "/portfolio-sites/sites/lead-recovery"
     }
   ]
 }
