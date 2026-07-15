@@ -4,104 +4,138 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luma Atelier | Skin, Hair and Recovery Rooms</title>
-    <meta name="description" content="Luma Atelier is a soft luxury wellness and salon website with deposits, bookings, retail and treatment planning." />
-    <link rel="stylesheet" href="../styles.css" />
+    <meta name="description" content="Luma Atelier is a soft luxury wellness and salon atelier with treatment booking, deposits, and monthly ritual membership." />
+    <link rel="stylesheet" href="./wellness.css" />
   </head>
-  <body class="wellness">
-    <div class="site-shell">
-      <nav class="nav">
-        <a class="brand" href="../index.html"><span class="brand-mark"></span> Luma Atelier</a>
-        <div class="nav-links">
-          <a href="#treatments">Treatments</a>
-          <a href="#book">Book</a>
-          <a href="#skinbar">Skinbar</a>
-          <a href="#membership">Membership</a>
-        </div>
-        <a class="nav-cta" href="#book">Book now</a>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="../index.html">Luma Atelier</a>
+      <nav class="main-nav">
+        <a href="#treatments">Treatments</a>
+        <a href="#book">Book</a>
+        <a href="#membership">Membership</a>
       </nav>
+      <a class="btn" href="#book">Book now</a>
+    </header>
 
-      <section class="hero">
-        <img src="../../assets/portfolio-images/wellness/wellness-asset-01.png" alt="Luma Atelier reception" />
-        <div class="hero-inner reveal">
-          <span class="eyebrow">Skin, hair, recovery</span>
+    <section class="hero">
+      <div class="blob one"></div>
+      <div class="blob two"></div>
+      <div class="wrap hero-grid">
+        <div class="reveal">
+          <span class="hero-eyebrow">Skin, hair, recovery</span>
           <h1>Leave lighter than you arrived.</h1>
-          <p class="hero-copy">A quiet atelier for skin health, restorative hair rituals, massage recovery, and considered retail that follows you home.</p>
-          <div class="hero-actions"><a class="btn" href="#book">Book a treatment</a><a class="btn secondary" href="#treatments">Explore rituals</a></div>
+          <p class="lede">A quiet atelier for skin health, restorative hair rituals, massage recovery, and considered retail that follows you home.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#book">Book a treatment</a>
+            <a class="btn soft" href="#treatments">Explore rituals</a>
+          </div>
+        </div>
+        <div class="hero-image reveal">
+          <img src="../../assets/portfolio-images/wellness/wellness-asset-01.png" alt="Luma Atelier reception" />
+          <div class="hero-badge"><strong>3 rooms</strong><span>Skin, hair and recovery, each with its own rhythm.</span></div>
+        </div>
+      </div>
+      <div class="trust-row reveal">
+        <div class="trust-pill"><strong>R300</strong>Deposit secures peak slots</div>
+        <div class="trust-pill"><strong>48h</strong>Reminder before every visit</div>
+        <div class="trust-pill"><strong>15%</strong>Member saving on rituals</div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section" id="treatments">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="tag">The menu</span>
+            <h2>Rituals with a clear path to booking.</h2>
+            <p>Pricing is visible, duration is visible, and the booking action never disappears.</p>
+          </div>
+          <div class="treatment-list">
+            <div class="treatment-row reveal">
+              <span class="icon">✿</span>
+              <div><h3>Glow Facial</h3><p>Hydration, barrier repair, LED calm.</p></div>
+              <span class="duration">75 minutes</span>
+              <span class="price">R1,250</span>
+            </div>
+            <div class="treatment-row reveal">
+              <span class="icon">✿</span>
+              <div><h3>Colour Reset</h3><p>Consultation, tone correction, gloss, styling.</p></div>
+              <span class="duration">120 minutes</span>
+              <span class="price">R1,800</span>
+            </div>
+            <div class="treatment-row reveal">
+              <span class="icon">✿</span>
+              <div><h3>Recovery Massage</h3><p>Deep tissue, lymph support, breath-led finish.</p></div>
+              <span class="duration">60 minutes</span>
+              <span class="price">R950</span>
+            </div>
+            <div class="treatment-row reveal">
+              <span class="icon">✿</span>
+              <div><h3>Skin Consultation</h3><p>Full assessment with a personalised care plan.</p></div>
+              <span class="duration">30 minutes</span>
+              <span class="price">R450</span>
+            </div>
+          </div>
         </div>
       </section>
 
-      <div class="metrics-strip reveal">
-        <div class="metric"><strong>R300</strong><span>Deposit secures high-demand evening and weekend slots.</span></div>
-        <div class="metric"><strong>48h</strong><span>Reminder cascade before every premium treatment.</span></div>
-        <div class="metric"><strong>3</strong><span>Rooms: skin, hair, and recovery.</span></div>
-        <div class="metric"><strong>15%</strong><span>Member saving on monthly ritual plans.</span></div>
-      </div>
-
-      <main>
-        <section class="section" id="treatments">
+      <section class="section tight" id="book">
+        <div class="wrap">
           <div class="section-head reveal">
-            <h2>Rituals with a clear path to booking.</h2>
-            <p>Beauty sites convert when the treatment menu is calm, pricing is visible, and the booking action never disappears.</p>
+            <span class="tag">Booking</span>
+            <h2>Your slot held, your preferences remembered.</h2>
+            <p>Choose a branch, attach notes, and reserve with a deposit. Calm for the client, tight on the operations side.</p>
           </div>
-          <div class="grid three">
-            <div class="card pad reveal"><h3>Glow Facial</h3><p class="muted">Hydration, barrier repair, LED calm. 75 minutes from R1,250.</p></div>
-            <div class="card pad reveal"><h3>Colour Reset</h3><p class="muted">Consultation, tone correction, gloss, styling. From R1,800.</p></div>
-            <div class="card pad reveal"><h3>Recovery Massage</h3><p class="muted">Deep tissue, lymph support, breath-led finish. From R950.</p></div>
-          </div>
-        </section>
-
-        <section class="section" id="book">
-          <div class="grid two">
-            <div class="reveal">
-              <span class="eyebrow">Booking</span>
-              <h2>Your slot is held with a deposit, your preferences are remembered.</h2>
-              <p class="muted">Clients can choose a branch, attach notes, and reserve a treatment with a deposit. The experience feels calm, but the operations are tight.</p>
-              <div class="grid two">
-                <div class="image-card card"><img src="../../assets/portfolio-images/wellness/wellness-asset-02.png" alt="Salon station" /><span class="image-label">Hair room</span></div>
-                <div class="image-card card"><img src="../../assets/portfolio-images/wellness/wellness-asset-03.png" alt="Treatment room" /><span class="image-label">Skin room</span></div>
-              </div>
+          <div class="booking-grid">
+            <div class="booking-images reveal">
+              <img class="tall" src="../../assets/portfolio-images/wellness/wellness-asset-02.png" alt="Salon station" />
+              <img src="../../assets/portfolio-images/wellness/wellness-asset-03.png" alt="Treatment room" />
+              <img src="../../assets/portfolio-images/wellness/wellness-asset-04.png" alt="Skin tools and products" />
             </div>
-            <form class="card pad booking-card reveal" data-booking-form>
+            <form class="form-card reveal" data-booking-form>
               <h3>Reserve treatment</h3>
               <div class="form-grid">
-                <div class="field"><label>Treatment</label><select><option>Glow Facial</option><option>Colour Reset</option><option>Recovery Massage</option><option>Skin consultation</option></select></div>
+                <div class="field full"><label>Treatment</label><select><option>Glow Facial</option><option>Colour Reset</option><option>Recovery Massage</option><option>Skin consultation</option></select></div>
                 <div class="field"><label>Location</label><select><option>Umhlanga</option><option>Ballito</option><option>Gateway</option></select></div>
                 <div class="field"><label>Date</label><input type="date" /></div>
                 <div class="field"><label>Time</label><input type="time" /></div>
-                <div class="field full"><label>Preferences</label><textarea placeholder="Skin concerns, allergies, stylist preference..."></textarea></div>
+                <div class="field full"><label>Preferences</label><textarea rows="2" placeholder="Skin concerns, allergies, stylist preference..."></textarea></div>
               </div>
-              <button class="btn" type="submit">Reserve with deposit</button>
-              <p class="quote-result reveal"><span data-booking-status>Choose a slot and Luma will hold it for you.</span></p>
+              <div style="margin-top: 22px;"><button class="btn" type="submit">Reserve with deposit</button></div>
+              <p class="status-note" data-status>Choose a slot and Luma will hold it for you.</p>
             </form>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="section tight" id="skinbar">
-          <div class="grid three">
-            <div class="image-card card reveal"><img src="../../assets/portfolio-images/wellness/wellness-asset-04.png" alt="Skin tools and products" /><span class="image-label">Treatment tools</span></div>
-            <div class="image-card card reveal"><img src="../../assets/portfolio-images/wellness/wellness-asset-07.png" alt="Retail shelf" /><span class="image-label">Skinbar retail</span></div>
-            <div class="image-card card reveal"><img src="../../assets/portfolio-images/wellness/wellness-asset-09.png" alt="Payment terminal" /><span class="image-label">Deposit and retail</span></div>
+      <section class="section" id="membership">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="tag">Membership</span>
+            <h2>Monthly rituals, no rebooking friction.</h2>
+            <p>One treatment credit, priority weekend booking, and a saving that compounds every month.</p>
           </div>
-        </section>
-
-        <section class="section" id="membership">
-          <div class="grid two">
-            <div class="panel reveal">
-              <h3>Monthly ritual membership</h3>
-              <p>One treatment credit, priority weekend booking, retail saving, and no rebooking friction.</p>
-              <div class="floating-dashboard">
-                <div class="dash-row"><span>Glow member</span><strong>R1,150</strong></div>
-                <div class="dash-row"><span>Reset member</span><strong>R1,650</strong></div>
-                <div class="dash-row"><span>Recovery member</span><strong>R950</strong></div>
-              </div>
-            </div>
-            <div class="image-card card reveal"><img src="../../assets/portfolio-images/wellness/wellness-asset-10.png" alt="Owner reviewing salon dashboard" /><span class="image-label">Member retention</span></div>
+          <div class="tier-grid">
+            <div class="tier-card reveal"><h3>Recovery</h3><div class="amount">R950</div><p>One massage credit per month, no roll-over.</p><a class="btn soft" href="#book">Choose Recovery</a></div>
+            <div class="tier-card featured reveal"><h3>Glow</h3><div class="amount">R1,150</div><p>One facial credit, priority weekend slots, 15% retail saving.</p><a class="btn" href="#book" style="background: var(--terracotta);">Choose Glow</a></div>
+            <div class="tier-card reveal"><h3>Reset</h3><div class="amount">R1,650</div><p>One colour credit per month plus a complimentary gloss refresh.</p><a class="btn soft" href="#book">Choose Reset</a></div>
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
+    </main>
 
-      <footer class="footer"><div class="footer-inner"><h2>Luma Atelier turns calm luxury into a booked calendar.</h2><a class="btn" href="#book">Reserve treatment</a></div></footer>
-    </div>
-    <script src="../script.js"></script>
+    <footer class="site-footer">
+      <div class="wrap">
+        <h2>Luma Atelier turns calm luxury into a booked calendar.</h2>
+        <a class="btn" href="#book">Reserve treatment</a>
+        <div class="footer-bottom">
+          <span>© Luma Atelier</span>
+          <span>Fictional brand — Miraistack portfolio example</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./wellness.js"></script>
   </body>
 </html>
