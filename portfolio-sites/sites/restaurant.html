@@ -30,33 +30,216 @@
           <a class="btn ghost" href="#menu">See the current menu</a>
         </div>
       </div>
-    </header>
+    </section>
 
     <main>
       <section class="section" id="menu">
         <div class="wrap">
           <div class="section-head reveal">
-            <span class="tag">Tonight's plates</span>
+            <span class="tag">The full menu</span>
             <h2>Tonight moves with the coals.</h2>
-            <p>The menu is edited, not endless — six plates that change with what the fire is doing that evening.</p>
+            <p>Ten plates, ten pours. Add anything that catches your eye and send the order straight to your reservation.</p>
           </div>
-          <div class="menu-columns">
-            <div class="menu-group reveal">
-              <h3>To start</h3>
-              <div class="menu-item"><span class="name">Charred prawns</span><span class="dots"></span><span class="price">R145</span></div>
-              <p class="desc">Lime leaf butter, chilli oil, sourdough.</p>
-              <div class="menu-item" style="margin-top:18px;"><span class="name">Smoked aubergine</span><span class="dots"></span><span class="price">R120</span></div>
-              <p class="desc">Sesame, preserved lemon, herb oil.</p>
+
+          <div class="menu-tabs reveal">
+            <button class="menu-tab is-active" type="button" data-tab="food">To Eat</button>
+            <button class="menu-tab" type="button" data-tab="drinks">To Drink</button>
+          </div>
+
+          <div class="menu-layout">
+            <div class="menu-panels">
+              <div class="menu-panel" data-panel="food">
+                <div class="menu-group reveal">
+                  <h3>Starters</h3>
+                  <div class="menu-row" data-item data-name="Charred Prawns" data-price="145">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Charred Prawns</span><span class="dots"></span><span class="price">R145</span></div>
+                      <p class="desc">Lime leaf butter, chilli oil, sourdough.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Smoked Aubergine" data-price="120">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Smoked Aubergine</span><span class="dots"></span><span class="price">R120</span></div>
+                      <p class="desc">Sesame, preserved lemon, herb oil.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Beef Tartare" data-price="135">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Beef Tartare</span><span class="dots"></span><span class="price">R135</span></div>
+                      <p class="desc">Smoked egg yolk, capers, rye crisp.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                </div>
+
+                <div class="menu-feature reveal">
+                  <img src="/assets/portfolio-images/restaurant/restaurant-asset-03.png" alt="Chef plating a fire-led main course" />
+                  <img src="/assets/portfolio-images/restaurant/restaurant-asset-07.png" alt="Coal-seared plate with charred greens" />
+                </div>
+
+                <div class="menu-group reveal">
+                  <h3>Mains</h3>
+                  <div class="menu-row" data-item data-name="Coal-Seared Ribeye" data-price="385">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Coal-Seared Ribeye</span><span class="dots"></span><span class="price">R385</span></div>
+                      <p class="desc">Bone marrow jus, bitter leaves.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Fire-Roasted Line Fish" data-price="310">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Fire-Roasted Line Fish</span><span class="dots"></span><span class="price">R310</span></div>
+                      <p class="desc">Charred lemon, brown butter, capers.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Charred Cauliflower Steak" data-price="210">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Charred Cauliflower Steak</span><span class="dots"></span><span class="price">R210</span></div>
+                      <p class="desc">Almond romesco, crispy herbs.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Smoked Lamb Rump" data-price="340">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Smoked Lamb Rump</span><span class="dots"></span><span class="price">R340</span></div>
+                      <p class="desc">Salsa verde, charred leek.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                </div>
+
+                <div class="menu-group reveal">
+                  <h3>Desserts</h3>
+                  <div class="menu-row" data-item data-name="Burnt Basque Cheesecake" data-price="95">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Burnt Basque Cheesecake</span><span class="dots"></span><span class="price">R95</span></div>
+                      <p class="desc">Citrus salt, torched meringue.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Dark Chocolate Fondant" data-price="110">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Dark Chocolate Fondant</span><span class="dots"></span><span class="price">R110</span></div>
+                      <p class="desc">Espresso anglaise, smoked salt.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Grilled Pineapple" data-price="85">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Grilled Pineapple</span><span class="dots"></span><span class="price">R85</span></div>
+                      <p class="desc">Coconut sorbet, lime.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-panel" data-panel="drinks" hidden>
+                <div class="menu-group reveal">
+                  <h3>Cocktails</h3>
+                  <div class="menu-row" data-item data-name="Smoke &amp; Salt Old Fashioned" data-price="135">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Smoke &amp; Salt Old Fashioned</span><span class="dots"></span><span class="price">R135</span></div>
+                      <p class="desc">Bourbon, charred orange, smoked salt rim.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Ember Negroni" data-price="130">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Ember Negroni</span><span class="dots"></span><span class="price">R130</span></div>
+                      <p class="desc">Gin, Campari, sweet vermouth, orange oil.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Coastal Paloma" data-price="120">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Coastal Paloma</span><span class="dots"></span><span class="price">R120</span></div>
+                      <p class="desc">Tequila, grapefruit, chilli salt.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Fig &amp; Sage Sour" data-price="125">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Fig &amp; Sage Sour</span><span class="dots"></span><span class="price">R125</span></div>
+                      <p class="desc">Bourbon, fig, sage, lemon.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                </div>
+
+                <div class="menu-group reveal">
+                  <h3>Wine, by the glass</h3>
+                  <div class="menu-row" data-item data-name="Chenin Blanc, Swartland" data-price="95">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Chenin Blanc, Swartland</span><span class="dots"></span><span class="price">R95</span></div>
+                      <p class="desc">Citrus and stone fruit, unoaked.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Syrah, Stellenbosch" data-price="110">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Syrah, Stellenbosch</span><span class="dots"></span><span class="price">R110</span></div>
+                      <p class="desc">Dark berry, cracked pepper, soft tannin.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="MCC Brut Rosé" data-price="100">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">MCC Brut Rosé</span><span class="dots"></span><span class="price">R100</span></div>
+                      <p class="desc">Red fruit, fine mousse, dry finish.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                </div>
+
+                <div class="menu-group reveal">
+                  <h3>Beer &amp; No-Proof</h3>
+                  <div class="menu-row" data-item data-name="Craft Amber Ale" data-price="55">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Craft Amber Ale</span><span class="dots"></span><span class="price">R55</span></div>
+                      <p class="desc">Local brewery, caramel malt.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Sparkling Elderflower Press" data-price="45">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Sparkling Elderflower Press</span><span class="dots"></span><span class="price">R45</span></div>
+                      <p class="desc">House-pressed, non-alcoholic.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                  <div class="menu-row" data-item data-name="Charred Lime Soda" data-price="42">
+                    <div class="menu-row-copy">
+                      <div class="menu-item"><span class="name">Charred Lime Soda</span><span class="dots"></span><span class="price">R42</span></div>
+                      <p class="desc">Charred lime, soda, mint.</p>
+                    </div>
+                    <button class="add-chip" type="button" data-add>Add</button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="menu-group reveal">
-              <h3>From the fire</h3>
-              <div class="menu-item"><span class="name">Coal-seared ribeye</span><span class="dots"></span><span class="price">R385</span></div>
-              <p class="desc">Bone marrow jus, bitter leaves.</p>
-              <div class="menu-item" style="margin-top:18px;"><span class="name">Fire-roasted line fish</span><span class="dots"></span><span class="price">R310</span></div>
-              <p class="desc">Charred lemon, brown butter, capers.</p>
-              <div class="menu-item" style="margin-top:18px;"><span class="name">Burnt Basque cheesecake</span><span class="dots"></span><span class="price">R95</span></div>
-              <p class="desc">Citrus salt, torched meringue.</p>
-            </div>
+
+            <aside class="order-panel reveal">
+              <div class="order-panel-head">
+                <img src="/assets/portfolio-images/restaurant/restaurant-asset-02.png" alt="Order taken table-side on a tablet" />
+                <div>
+                  <h3>Your order</h3>
+                  <p>Build it here, send it to your table.</p>
+                </div>
+              </div>
+              <div class="order-list" data-order-list>
+                <p class="order-empty" data-order-empty>Add a plate or a pour to start building tonight's order.</p>
+              </div>
+              <div class="order-total-row">
+                <span>Total</span>
+                <strong data-order-total>R0</strong>
+              </div>
+              <button class="btn" type="button" data-send-order>Send to reservation</button>
+              <p class="status-note" data-order-status></p>
+            </aside>
           </div>
         </div>
       </section>
