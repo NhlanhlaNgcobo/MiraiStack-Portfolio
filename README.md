@@ -1,13 +1,11 @@
-# MiraStack Portfolio
+# Miraistack Portfolio Hub
 
-Premium fictional client websites for Miraistack portfolio presentations.
+A single landing page linking out to five fictional client website builds, each in its own standalone repo:
 
-## Sites
+- [Kanso House](https://github.com/NhlanhlaNgcobo/kanso-house) — premium furniture ecommerce
+- [BoltWorks](https://github.com/NhlanhlaNgcobo/boltworks) — trades instant estimate and callout booking
+- [Ember No. 18](https://github.com/NhlanhlaNgcobo/ember-no-18) — restaurant menu, order builder and reservations
+- [Luma Atelier](https://github.com/NhlanhlaNgcobo/luma-atelier) — wellness and salon booking
+- [NightSwitch](https://github.com/NhlanhlaNgcobo/nightswitch) — after-hours lead capture product
 
-- Kanso House - premium furniture ecommerce
-- BoltWorks - trades quote and booking
-- Ember No. 18 - restaurant reservations and collection
-- Luma Atelier - wellness and salon booking
-- NightSwitch - after-hours lead capture product
-
-The portfolio hub lives at `portfolio-sites/index.html`.
+This repo only contains the hub page (`index.html`, `styles.css`, `script.js`) — each site above is a fully independent, self-contained project with its own assets.
